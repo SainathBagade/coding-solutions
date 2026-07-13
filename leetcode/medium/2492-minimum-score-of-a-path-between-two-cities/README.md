@@ -53,9 +53,9 @@ Explanation: The path from city 1 to 4 with the minimum score is: 1 -> 2 -> 1 ->
 ## Solution
 
 **Language:** C++  
-**Runtime:** 205 ms (beats 5.07%)  
-**Memory:** 192.1 MB (beats 5.02%)  
-**Submitted:** 2026-07-12T12:27:32.160Z  
+**Runtime:** 191 ms (beats 5.20%)  
+**Memory:** 191.9 MB (beats 5.02%)  
+**Submitted:** 2026-07-12T12:32:14.763Z  
 
 ```cpp
 class Solution {

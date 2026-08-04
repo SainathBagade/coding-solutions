@@ -81,9 +81,9 @@ Machine 2's average time is ((4.512 - 4.100) + (5.000 - 2.500)) / 2 = 1.456
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 128 ms  
-**Memory:** 0B  
-**Submitted:** 2026-08-04T09:14:18.258Z  
+**Runtime:** 327 ms (beats 10.93%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-08-04T09:17:10.726Z  
 
 ```sql
 # Write your MySQL query statement below
@@ -92,7 +92,8 @@ from Activity a1
 inner join Activity a2
 on a1.process_id=a2.process_id
 AND a1.machine_id=a2.machine_id 
-AND a1.timestamp < a2.timestamp
+AND a1.activity_type = 'start'
+AND a2.activity_type = 'end'
 group by a1.machine_id
 ```
 

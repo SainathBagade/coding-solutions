@@ -54,9 +54,9 @@ An input string is valid if:
 ## Solution
 
 **Language:** C++  
-**Runtime:** 3 ms (beats 9.35%)  
-**Memory:** 10 MB (beats 6.20%)  
-**Submitted:** 2026-10-01T01:47:01.374Z  
+**Runtime:** 0 ms  
+**Memory:** 8 MB  
+**Submitted:** 2026-10-01T01:47:25.322Z  
 
 ```cpp
 #include <string>
@@ -83,7 +83,6 @@ stack<int>st;
                 }else{
                     return false;
                 }
-            
         }
       }
         return st.empty();

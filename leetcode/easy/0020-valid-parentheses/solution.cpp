@@ -22,7 +22,6 @@ stack<int>st;
                 }else{
                     return false;
                 }
-            
         }
       }
         return st.empty();
